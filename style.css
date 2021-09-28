@@ -1,0 +1,65 @@
+body {
+    background-image: url("Background.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+#gameCanvas {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 37%;
+
+}
+
+#score {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+/*
+#HighScore {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.HS {
+    text-align: center;
+    color: white;
+}
+
+#HScore {
+    font-size: 24px;
+}
+*/
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+  
